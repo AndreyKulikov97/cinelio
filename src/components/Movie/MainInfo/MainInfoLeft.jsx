@@ -37,9 +37,9 @@ export default function MainInfoLeft(props) {
 			</div>
 			<div className='main__info-left-categoryes'>
 				{dataFilm.categoryes.map((value, index) => (
-					<>
+					
 						<p key={index}>{value}</p>
-					</>
+					
 				))}
 			</div>
 			<div className='main__info-left-about'>
