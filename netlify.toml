@@ -1,0 +1,4 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+    content-Security-Policy = "frame-src https://www.youtube.com https://youtube.com"
